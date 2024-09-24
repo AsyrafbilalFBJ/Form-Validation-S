@@ -100,7 +100,7 @@ export default function Home() {
 		};
 	
 		try {
-			const response = await fetch('http://localhost:3000', {
+			const response = await fetch('https://form-validation-api-xi.vercel.app', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
