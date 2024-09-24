@@ -4,11 +4,11 @@ const { matchedData, validationResult, body } = require('express-validator');
 
 const app = express();
 app.use(cors(
-    // {
-    //     origin: [""],
-    //     methods: ["POST","GET"],
-    //     credentials: true
-    // }
+    {
+        origin: ["https://form-validation-weld-nu.vercel.app"],
+        methods: ["POST","GET"],
+        credentials: true
+    }
 ));
 app.use(express.json());
 
